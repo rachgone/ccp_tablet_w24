@@ -1,0 +1,221 @@
+.pets-background{
+    background-image: url(../images/dogback.jpeg);
+}
+@media (prefers-reduced-motion) {
+    img[src*="gif"] {
+        display: none;
+    }
+}
+
+.active{
+    background-color: pink;
+    font-weight: bold;
+}
+.skip{
+    position: absolute;
+    left: -9999px;
+    z-index: 999;
+    padding: 1em;
+    background-color: black;
+    color: white;
+    opacity: 0;
+}
+
+.skip:focus {
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 1;
+}
+
+h2{
+    text-decoration: underline;
+}
+.nav-menu li{
+    font-style: italic;
+    color: aqua;
+    background-color: beige;
+    display: inline-block;
+    text-align: center;
+    display: inline-block;
+    border: solid 2px black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+.bacon{
+    background-color: pink;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 5px dashed rgb(241, 241, 189);
+    align-items: center;
+    grid-gap: 3px;
+    overflow: hidden;
+    /* width: 450px; */
+    /* height: 130px; */
+    justify-content: center;
+    justify-items: center;
+    padding: 1px;
+}
+
+.bacon img{
+    border: solid 2px black;
+}
+
+.photo-gallery img:nth-child(1) {
+    border: 3px solid black;
+    padding: 3px; 
+    border-radius: 10px;
+}
+
+.photo-gallery img:nth-child(2) {
+    border: 3px dotted black; 
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.photo-gallery img:nth-child(3) {
+    border: 3px solid black;
+    padding: 3px; 
+    border-radius: 10px;
+}
+
+.Berry{
+    display: grid;
+    grid-template-rows: auto;
+    border: 5px dashed rgba(96, 0, 128, 0.489);
+    row-gap: 3px;
+    padding: 3px;
+    width: 300px;
+    background-color: pink;
+    border: 5px dashed rgb(241, 241, 189);
+}
+
+.pepper{
+    display: grid;
+    grid-template-rows: auto;
+    border: 5px dashed rgba(96, 0, 128, 0.489);
+    row-gap: 3px;
+    padding: 3px;
+    width: 300px;
+    background-color: pink;
+    border: 5px dashed rgb(241, 241, 189);
+}
+
+.recipe-background{
+    background-image: url(../images/cookingback3.jpeg);
+}
+
+.bake{
+    display: grid;
+    grid-template-rows: auto;
+    border: 5px dashed rgba(96, 0, 128, 0.489);
+    row-gap: 3px;
+    padding: 3px;
+    width: 300px;
+    background-color: pink;
+    border: 5px dashed rgb(241, 241, 189);
+}
+.ing{
+    border: solid 2px black;
+    padding: 3px;
+}
+
+.steps{
+    display: grid;
+    grid-template-rows: auto;
+    border: 5px dashed rgba(96, 0, 128, 0.489);
+    row-gap: 3px;
+    padding: 3px;
+    width: 300px;
+    background-color: pink;
+    border: 5px dashed rgb(241, 241, 189);
+}
+
+.pas{
+    display: grid;
+    grid-template-rows: auto;
+    border: 5px dashed rgba(96, 0, 128, 0.489);
+    row-gap: 3px;
+    padding: 3px;
+    width: 350px;
+    background-color: pink;
+    border: 5px dashed rgb(241, 241, 189);
+}
+
+
+.tik{
+    display: grid;
+    grid-template-rows: auto;
+    border: 5px dashed rgba(96, 0, 128, 0.489);
+    row-gap: 3px;
+    padding: 3%;
+    width: 300px;
+    background-color: pink;
+    border: 5px dashed rgb(241, 241, 189);
+
+}
+
+.tik img{
+    border: solid 2px black;
+}
+
+.par{
+    display: grid;
+    grid-template-rows: auto;
+    border: 5px dashed rgba(96, 0, 128, 0.489);
+    row-gap: 4px;
+    padding: 2%;
+    width: 300px;
+    background-color: pink;
+    border: 5px dashed rgb(241, 241, 189);
+}
+
+.pot{
+    display: grid;
+    grid-template-rows: auto;
+    border: 5px dashed rgba(96, 0, 128, 0.489);
+    row-gap: 4px;
+    padding: 2%;
+    width: 300px;
+    background-color: pink;
+    border: 5px dashed rgb(241, 241, 189);
+}
+
+.yell{
+    display: grid;
+    grid-template-rows: auto;
+    border: 5px dashed rgba(96, 0, 128, 0.489);
+    row-gap: 4px;
+    padding: 2%;
+    width: 300px;
+    background-color: pink;
+    border: 5px dashed rgb(241, 241, 189);
+}
+.low{
+    display: grid;
+    grid-template-rows: auto;
+    border: 5px dashed rgba(96, 0, 128, 0.489);
+    row-gap: 4px;
+    padding: 2%;
+    width: 300px;
+    background-color: pink;
+    border: 5px dashed rgb(241, 241, 189);
+}
+.rain{
+    display: grid;
+    grid-template-rows: auto;
+    border: 5px dashed rgba(96, 0, 128, 0.489);
+    row-gap: 4px;
+    padding: 2%;
+    width: 300px;
+    background-color: pink;
+    border: 5px dashed rgb(241, 241, 189);
+}
+
+.trav-background{
+    background-image: url(../images/trabac.jpeg);
+}
